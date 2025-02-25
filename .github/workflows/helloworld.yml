@@ -15,3 +15,13 @@ jobs:
 
             - name: "print current date"
               run: date
+
+
+    fruits:
+        runs-on: ubuntu-latest
+        steps:
+            - name: "list of fruits"
+              run: echo "Apple Banana Mango Grapes"
+
+            - name: "print date"
+              run: date
